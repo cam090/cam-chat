@@ -11,14 +11,10 @@ import Chat from 'chat/Chat';
 
 const App = () => (
   <Container>
-    <p>
-      asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-    </p>
+    <p>This is a new application.</p>
     <h1>Chat!</h1>
     <Chat />
-    <p>
-      asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-    </p>
+    <p>We are using Module Federation!</p>
   </Container>
 );
 
