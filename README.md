@@ -1,6 +1,14 @@
 # cam-chat
 Fully functioning chat application that uses React, Apollo, GraphQL subscriptions, web sockets, and Module Federation.
 
+**How it works**
+1) Start the server using _yarn start_
+2) Go to localhost:8080
+3) Type name and a message in the chat box - press enter to submit
+4) Open a new tab or window and type in a new name and new message then submit
+5) Now you should be able to see two users having a conversation with each other :)
+6) You can even add a third user...
+
 **Tech stack**
  - [React](https://reactjs.org/) is used to create the chat app interface.
  - [GraphQL](https://graphql.org/) is used to read and write messages.
