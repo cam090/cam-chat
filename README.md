@@ -1,14 +1,15 @@
 # cam-chat
 Fully functioning realtime chat application that uses React, Apollo, GraphQL subscriptions, web sockets, and Module Federation.
 
+
 **How it works**
 1) Run _yarn start_ in the _client_, _server_ and _home-page_
 2) Go to _localhost:8080_
 3) Type name and a message in the chat box - press enter to submit
 4) Open a new tab or window and type in a new name and new message then submit. Now you should be able to see two users having a conversation with each other :)
-6) To test Module Federation...
- 6.1) Go to _localhost:8081_
- 6.2) You should be able to see the previous chat history, you can also change the name and enter a new chat :)
+5) To test Module Federation... Go to _localhost:8081_
+6) You should be able to see the previous chat history, you can also change the name and enter a new chat :)
+
 
 **Tech stack**
  - [React](https://reactjs.org/) is used to create the chat app interface.
@@ -19,6 +20,10 @@ Fully functioning realtime chat application that uses React, Apollo, GraphQL sub
  - [Shards React](https://designrevision.com/docs/shards-react/getting-started) is a component library used.
 
 
+**localhost:8080**
 
-<img width="1439" alt="cam-chat-ss1" src="https://user-images.githubusercontent.com/43217221/161746580-9ffe2406-8145-4283-a671-71eccfb204f7.png">
-<img width="1439" alt="cam-chat-ss2" src="https://user-images.githubusercontent.com/43217221/161746589-df2fcdac-1dfe-4c75-9bb6-8aa7df11b96f.png">
+<img width="800" alt="cam-chat-ss1" src="https://user-images.githubusercontent.com/43217221/161746580-9ffe2406-8145-4283-a671-71eccfb204f7.png">
+
+**localhost:8081**
+
+<img width="800" alt="cam-chat-ss2" src="https://user-images.githubusercontent.com/43217221/161746589-df2fcdac-1dfe-4c75-9bb6-8aa7df11b96f.png">
