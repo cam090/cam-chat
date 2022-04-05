@@ -1,5 +1,5 @@
 # cam-chat
-Fully functioning chat application that uses React, Apollo, GraphQL subscriptions, web sockets, and Module Federation.
+Fully functioning realtime chat application that uses React, Apollo, GraphQL subscriptions, web sockets, and Module Federation.
 
 **How it works**
 1) Start the server using _yarn start_
